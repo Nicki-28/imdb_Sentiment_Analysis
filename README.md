@@ -12,7 +12,8 @@ El objetivo es clasificar reseñas como **positivas** o **negativas**, practican
 ---
 
 ## 📂 Dataset
-El dataset proviene de [Kaggle - IMDB Dataset of 50K Movie Reviews]([https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/data]).
+El dataset proviene de [Kaggle - IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews/data).
+
 
 ⚠️ **Nota:**  
 Los archivos CSV no se incluyen en este repositorio debido a su tamaño.  
