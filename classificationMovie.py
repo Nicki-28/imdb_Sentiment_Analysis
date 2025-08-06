@@ -2,7 +2,9 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
-
+from sklearn.metrics import confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
 import numpy as np
 import pandas as pd
 import re
@@ -75,3 +77,12 @@ top_negative_indices = np.argsort(coefficients)[:20]
 print("\nPalabras más negativas:")
 for i in top_negative_indices:
     print(feature_names[i], coefficients[i])
+
+#visualización gráfica de los resultados
+cm = confusion_matrix(y_test, y_pred, labels=["positive", "negative"])
+
+sns.heatmap(cm, annot=True, fmt="d", cmap="Blues", xticklabels=["positive", "negative"], yticklabels=["positive", "negative"])
+plt.xlabel("Predicción")
+plt.ylabel("Real")
+plt.title("Matriz de Confusión - Logistic Regression")
+plt.show()
