@@ -32,13 +32,13 @@ Para reproducir este proyecto:
 6. **Interpretación**  
 ---
 
-## 📊 Resultados
+## Resultados
 - **Accuracy:** ~0.88  
 - **Palabras más influyentes:**  
   - *Positivas:* excellent, amazing, wonderful, ...  
   - *Negativas:* boring, worst, waste, ...
 ---
-### Matriz de Confusión
+### Matriz de Confusión 📊
 ![Matriz de Confusión](matriz_confusion.png)
 ---
 
