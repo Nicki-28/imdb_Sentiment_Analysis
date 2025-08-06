@@ -37,7 +37,9 @@ Para reproducir este proyecto:
 - **Palabras más influyentes:**  
   - *Positivas:* excellent, amazing, wonderful, ...  
   - *Negativas:* boring, worst, waste, ...
-
+---
+### Matriz de Confusión
+![Matriz de Confusión](matriz_confusion.png)
 ---
 
 ## 📦 Instalación y ejecución
