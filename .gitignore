@@ -1,4 +1,17 @@
+
+# Archivos de datos pesados
 *.csv
-*.ipynb_checkpoints/
+
+# Entornos virtuales
 .venv/
-*.csv
+venv/
+ENV/
+env/
+
+# Archivos temporales
+
+*.pyc
+*.pyo
+__pycache__/
+*.ipynb_checkpoints/
+.DS_Store
