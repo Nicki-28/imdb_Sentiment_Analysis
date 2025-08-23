@@ -30,7 +30,7 @@ with open(db_reviewsNEW, mode="w", newline="", encoding="utf-8") as cleaned_file
         # Escribir el texto limpio
         writer.writerow([texto_limpio, row['sentiment']])
 
-df_reviewsNEW = pd.read_csv("IMDB CleanedDataset.csv")
+df_reviewsNEW = pd.read_csv("IMDB CleanedDataset.csv").sample(n=5000, random_state=42)
 
 corpus = df_reviewsNEW['review'] #accedo a la columna review del dataframe
 
