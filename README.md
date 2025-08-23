@@ -47,7 +47,7 @@ Para reproducir este proyecto:
   - *Negativas:* boring, worst, waste, ...
 ---
 ## Matriz de Confusión de ambas implementaciones 📊
-### Matriz de Confusión versión sknlearn
+### Matriz de Confusión versión sklearn
 ![Matriz de Confusión versión sklearn](sklearnLGRegression.png) 
 ---
 ### Matriz de Confusión versión manual 
