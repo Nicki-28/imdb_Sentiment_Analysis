@@ -54,7 +54,7 @@ Para reproducir este proyecto:
 ![Matriz de Confusión versión manual](manualLGRegression.png)
 ---
 ## Conclusiones
-La diferencia se debe a que sklearn implementa optimizadores más sofisticados y regularización que evita el sobreajuste, mientras que la versión manual usa un gradiente descendente básico con tasa de aprendizaje fija. La implementación manual es útil para fines didácticos y la compresión teórica de este modelo y de muchos otros pertenecientes al mundo del Machine Learning. Mientras que la segunda implementación es la opción eficiente para aplicaciones prácticas y datasets a gran escala.
+La diferencia se debe a que sklearn implementa optimizadores más sofisticados y regularización que evita el sobreajuste, mientras que la versión manual usa un gradiente descendente básico con tasa de aprendizaje fija. La implementación manual es útil para fines didácticos y la compresión teórica nos ha ayudado a entender este modelo que puede llegar a ser la base de muchos otros pertenecientes al mundo del Machine Learning. Mientras que la segunda implementación es la opción eficiente para aplicaciones prácticas y datasets a gran escala.
 
 Este proyecto permitió:
 
